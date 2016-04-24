@@ -5,7 +5,7 @@
  *
  * @return {Boolean}
  */
-export default function restrictNumeric(event) {
+export default function isNumericKeyEvent(event) {
   if (event.metaKey || event.ctrlKey) {
     return true;
   }

@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import isNumericKeyEvent from '../utils/restrict-numeric';
+import isNumericKeyEvent from '../utils/is-numeric-key-event';
 const { run } = Ember;
 
 export default Ember.Mixin.create({

@@ -3,7 +3,7 @@ import moduleForAcceptance from '../../tests/helpers/module-for-acceptance';
 
 moduleForAcceptance('Acceptance | restricted numeric input');
 
-test('restricted numeric input example', function(assert) {
+test('restricted numeric input from paste/input/change', function(assert) {
   visit('/');
 
   andThen(function() {
